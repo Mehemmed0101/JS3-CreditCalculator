@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/digital-credit-card-transaction-concept-background_1017-36080.jpg?size=626&ext=jpg);
+
+}
+
+.all {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+    .box {
+        font-size: 20px;
+        padding: 40px 200px;
+        border-color: black;
+        border: 2px solid gray;
+        margin: 45px 0;
+        position: relative;
+
+        h6 {
+            font-size: 19px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-style: normal;
+            position: absolute;
+            left: 2%;
+            top: 34%;
+        }
+
+        span {
+            position: absolute;
+            left: 59%;
+            top: 30%;
+        }
+
+        input {
+            transform: scale3d(3.2, 1.9, 1.9);
+            height: 2px;
+            position: absolute;
+            bottom: -3%;
+            left: 33.6%;
+
+        }
+    }
+
+}
+
+.calculate {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    padding: 100px;
+
+    label {
+        font-size: 25px;
+    }
+
+    input {
+        font-size: 20px;
+        padding: 5px 10px;
+        margin-bottom: 15px;
+    }
+
+    button{
+        padding: 20px 60px;
+        background-color: blue;
+        color: white;
+        font:700 25px white;
+        border: 3px solid rgb(1, 1, 54);
+        border-radius: 15px;
+        margin-left: 90px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    #total{
+        position: absolute;
+        font-size: 30px;
+        top: 20%;
+        left: 110%;
+    }
+    #first{
+        display: inline;
+        position: absolute;
+        font-size: 30px;
+        top: 20%;
+        left:88%;
+    }
+    #second{
+        display: inline;
+        position: absolute;
+        font-size: 30px;
+        top: 38%;
+        left:88%;
+    }
+    #total1{
+        position: absolute;
+        font-size: 30px;
+        top: 20%;
+        left: 110%;
+    }
+}
